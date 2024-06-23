@@ -1,2 +1,8 @@
 *__pycahce__*
 *.pyc
+
+*.mp4
+*.pt
+
+training/football-players-detection-1/*
+training/runs/*

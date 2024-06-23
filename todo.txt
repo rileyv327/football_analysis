@@ -1,0 +1,32 @@
+Finish setting up base player + gk + ball + ref detection. 
+
+Things to add:
+- Could probably train it to identify the lines which would give really easy insight into locations + camera blur? 
+
+Next Steps:
+
+- Small clips of data --> Fouls --> Interesting way to self-fund (Socail media)
+
+-- Feed another dimension of frames? Why wouldn't you be able to train on stitched footage? Especially if you're still limiting it to boxes?
+
+
+
+I guess at that point you're just working with frames of boxes.
+
+
+But should that be post-processing?
+
+Ball meets player and stops? Bc this guy got location data working to some degree. Or at least veloctiy. 
+
+- Ball interpolation meets player. But it would prob have to be high threshold unless you're clever about it.
+
+- Start and end are the most important frames. 
+
+------ If start_frame_trigger then look for end_frame_trigger and save what's inbetween. 
+------ Shots that go in could be easy. 
+------------------Easy marketing: BEST SHOOTERS MOST COMMON SHOT; Video out. Twitter bot could literally pull highlights. 
+
+Saves, same concept. 
+
+Really accurate pass tracking. 
+
